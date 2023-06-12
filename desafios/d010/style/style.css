@@ -178,7 +178,6 @@ div.video > iframe{
 
 aside{
     background-color: var(--cor1);
-    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212);
@@ -188,8 +187,12 @@ aside > h3 {
     background-color: var(--cor4);
     color: white;
     margin: -10px -10px 0px -10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    margin: 15px;
 }
 
 aside > ul{
