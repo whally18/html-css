@@ -90,7 +90,7 @@ main {
     padding: 20px;
     margin-bottom: 20px;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 250px;
     border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
@@ -163,6 +163,7 @@ main img.pequena{
 div.video{
     background-color: var(--cor4);
     margin: 0px -20px 30px -20px;
+    padding: 20px;
     padding-bottom: 59%;
     position: relative;
 }
