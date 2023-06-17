@@ -1,17 +1,3 @@
 @charset "UTF-8";
 
 
-
-
-header{
-    background-color: black;
-    color: white;
-}
-
-header > p > a {
-    font: bolder 1em Arial;
-}
-
-div.parallax{
-    background-image: element()
-}
