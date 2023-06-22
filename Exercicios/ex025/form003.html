@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome Completo" maxlength="30" autocomplete="name" size="30">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" required max="10" min="0" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="ilet">Ano Letivo: </label>
+            <input type="month" name="let" id="ilet" value="junho de 2023" required >
+        </p>
+        <p>
+            <label for="iprova">Dia da Prova: </label>
+            <input type="date" name="prova" id="iprova" required value="21/06/2023">
+        </p>
+        <p>
+            <label for="ihora">Hora da Prova: </label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
