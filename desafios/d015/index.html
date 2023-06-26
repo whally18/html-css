@@ -20,12 +20,12 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="email" id="iemail"> 
+                        <input type="email" name="email" id="iemail" required autocomplete="email" minlength="5" maxlength="30" placeholder="seu email"> 
                         <label for="iemail">Login</label>
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">vpn_key</span>
-                        <input type="password" name="pass" id="ipass">
+                        <input type="password" name="pass" id="ipass" required autocomplete="current-password" min="6" max="20" placeholder="sua senha">
                         <label for="ipass">Senha</label>
                     </div>
                     <div>
